@@ -1,0 +1,9 @@
+# .github/workflows/main.yml
+name: CI Test
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
